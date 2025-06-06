@@ -1,13 +1,11 @@
-import { Timestamp } from 'firebase/firestore';
-
 export interface User {
   id: string;
   email: string;
   name: string;
   role: 'admin' | 'user';
   lastLogin?: Date;
-  createdAt: Timestamp;
-  updatedAt: Timestamp;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 export interface UserPermissions {
