@@ -33,7 +33,7 @@ npm install
 - `src/pages` : pages de l'application
 - `src/components` : composants réutilisables
 - `src/store` : stores Zustand pour l'état
-- `src/services` : logique d'accès aux données (Firebase)
+- `src/services` : logique d'accès aux données via le stockage local JSON
 
 ## Contribution
 
